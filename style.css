@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Oswald", sans-serif;
+}
+body{
+    background-color: black;
+}
+.nav1{
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.nav1 div{
+    height: 90px;
+    width: 95%;   
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1 div ul{
+    display: flex;
+    gap: 50px;
+}
+.nav1 div ul li{
+   list-style: none;
+}
+.nav1 div ul li a{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+ }
+ .nav1 div ul li a:hover{
+    cursor: pointer;
+    color:rgb(255, 42, 0);
+ }
+ .nav1 div h1{
+     font-size: 70px;
+     color: rgb(255, 42, 0);
+ }
+ .seconddiv{
+    /* border: 1px solid green; */
+    /* margin-top: 20%;
+    margin-left: 50%; */
+    height: 500px;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+ }
+ .seconddiv div{
+    /* border: 1px solid red; */
+    height: 450px;
+    width: 90%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+ }
+ .seconddiv div h4{
+    color: white;
+    font-size: xx-large;
+ }
+ .seconddiv div h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+ }
+ .seconddiv div h1 b{
+color:rgb(255, 42, 0);
+ }
+ .seconddiv button{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    background-color:rgb(255, 42, 0);
+    color: white;
+    border: none;
+ }
+ .seconddiv button:hover{
+    color:rgb(255, 42, 0);
+    background-color: white;
+    border:1px solid rgb(255, 42, 0) ;
+ }
+ .outerdiv{
+    height: 900px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .thirddiv{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .insidedicofthirddiv{
+    height: 600px;
+    width: 95%;
+    /* border: 1px solid green; */
+ }
+ .insidedicofthirddiv_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+ .insidedicofthirddiv_div h3{
+    color:rgb(255, 42, 0);
+    font-size: xx-large;
+ }
+ .insidedicofthirddiv_div h1{
+    color: rgb(201, 198, 198);
+ }
+ .insidedicofthirddiv_secdiv{
+    height:500px ;
+    width: 100%;
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+ }
+ .insidedicofthirddiv_secdiv .subdivo{
+    width: 20%;
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+ }
+ .subdiv{
+    height: 40%;
+    width: 40%;
+    /* border: 1px solid pink; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+    color:#f36100;
+ }
+.subdivo h2{
+    color: white;
+}
+.subdivo p{
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+.forth{
+    margin-top: 50px;
+}
+.forth h1{
+    font-size: 500%;
+}
+.forthout{
+    /* border: 1px solid red; */
+    color: white;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.fourh3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 95%;
+    gap: 30px;
+}
+.fourh3 p{
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+.five{
+    /* border: 1px solid red; */
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.five .tittle{
+    color: white;
+}
+.fivediv1{
+    height: 600px;
+    width: 95%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fivediv2{
+    height: 600px;
+    width: 30%;
+    border: 1px solid rgb(233, 224, 255);
+    transform: skewy(-4deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.price{
+    font-size: 100px;
+    color: #f36100;
+}
+.insidedivf2{
+    color: white;
+}
+.outprice p{
+    color: white;
+    text-align: center;
+}
+.fivediv2 ul li{
+    font-size: x-large;
+    color: white;
+    list-style: none;
+}
+.fivediv2 button{
+    height: 70px;
+    width: 70%;
+    font-size: x-large;
+    background-color: #232323;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.fivediv2:hover {
+    background-color: white;
+}
+.fivediv2:hover ul li{
+   color: black;
+}
+.fivediv2:hover .insidedivf2{
+    color: black;
+}
+.fivediv2:hover p{
+    color: black;
+}
+.fivediv2:hover button {
+    background-color: #f36100;
+    color: white;
+}
+.tranner{
+    height: 800px;
+    /* border: 1px solid forestgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 80px;
+}
+.t1 {
+    height: 750px;
+    width: 95%;
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t1 div{
+    height: 750px;
+    width: 95%;
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.t1 .imggg{
+    background-image: url("./It\ took\ 3\ years\ From\ bullyed\ to\ un\ breakable\ bull.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.abo{
+    font-size: x-large;
+}
+footer{
+    height: 100px;
+    border-top: 2px solid #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+footer div{
+    height: 90px;
+    width: 75%;
+    /* border: 1px solid hotpink; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer div i{
+   color: white;
+   font-size: xx-large;
+}
+footer div i:hover{
+    background-color: #f36100;
+ }
+ .last{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .last1{
+    /* border: 1px solid green; */
+   border-radius: 50%;
+    height: 900px;
+    width: 50%;
+    background-image: url("./fitness.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
